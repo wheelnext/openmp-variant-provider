@@ -7,7 +7,7 @@ from dataclasses import dataclass
 __version__ = "0"
 namespace = "openmp"
 
-_openmp_providers = ["gomp", "iomp", "llvmomp"]
+_openmp_providers = ["gnu", "intel", "llvm"]
 
 
 @dataclass(frozen=True)

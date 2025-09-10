@@ -24,6 +24,6 @@ plugin-use = "build"
 ## Provided properties
 ### openmp :: provider
 
-Values: `gomp`, `iomp`, `llvmomp`
+Values: `gnu`, `intel`, `llvm`
 
 Indicates which OpenMP implementation is used.
