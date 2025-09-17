@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-__version__ = "0"
+__version__ = "0.0.1"
 namespace = "openmp"
 
 _openmp_providers = ["gnu", "intel", "llvm"]
