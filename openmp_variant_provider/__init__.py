@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 namespace = "openmp"
 is_build_plugin = True
 
