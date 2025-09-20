@@ -6,6 +6,7 @@ from dataclasses import dataclass
 
 __version__ = "0.0.1"
 namespace = "openmp"
+is_build_plugin = True
 
 _openmp_providers = ["gnu", "intel", "llvm"]
 
